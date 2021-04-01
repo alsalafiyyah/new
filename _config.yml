@@ -8,7 +8,7 @@ url:            "https://alsalafiyyah.github.io/new/"
 github: [metadata]
 encoding: UTF-8
 permalink: pretty
-paginate:       20
+paginate: 6
 paginate_path: "/fatwas/:num/"
 markdown:       kramdown
 
