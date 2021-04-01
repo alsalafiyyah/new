@@ -11,3 +11,18 @@ permalink: pretty
 paginate:       20
 paginate_path: "/fatwas/:num/"
 markdown:       kramdown
+
+collections:
+  refutals:
+    output: true
+    permalink: /refutals/:path/
+  wahhabism:
+    output: true
+    permalink: /wahhabism/:path/
+  muqolat:
+    output: true
+    permalink: /muqolat/:title/
+  audios:
+    output: true
+    active: audios
+    permalink: /audios/:title/
