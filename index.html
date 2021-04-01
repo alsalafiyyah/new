@@ -10,7 +10,7 @@ layout: default
         </li>
   {% for post in site.posts limit:5 %}
     {% if post.url %}
-        <a href="{{ post.url }}" class="collection-item waves-effect waves-grey block ">{{ post.title }}</>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="collection-item waves-effect waves-grey block ">{{ post.title }}</>
     {% endif %}
   {% endfor %}
       </ul>
