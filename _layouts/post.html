@@ -9,10 +9,21 @@ layout: default
   <li><a href="#!" class="black-text waves-effect waves-grey">Telegram</a></li>
 </ul>
 <div id="navbar" class="black-text grey lighten-5">
- <a href="{{ site.baseurl }}/fatwas" class="black-text waves-effect waves-grey"><i class="material-icons">chevron_left</i></a>
+ <a href="#" class="black-text waves-effect waves-grey left"><i class="material-icons">keyboard_backspace</i></a>
   <a href="#" data-activates="slide-out" class="black-text button-collapse waves-effect waves-grey right"><i class="material-icons">menu</i></a>
- <a class="dropdown-button right black-text" href="#!" data-activates="dropdown1">Share<i class="material-icons right">arrow_drop_down</i></a>
 </div>
+
+  <div>
+   <a class="waves-effect waves-light modal-trigger" href="#modal1"><i class="material-icons left">error_outline</i>Post info</a>
+   <a class="dropdown-button right black-text" href="#!" data-activates="dropdown1">Share<i class="material-icons right">arrow_drop_down</i></a>
+<ul id="dropdown1" class="dropdown-content black-text">
+  <li><a href="#!" class="black-text waves-effect waves-grey">Facebook</a></li>
+  <li><a href="#!" class="black-text waves-effect waves-grey">Twitter</a></li>
+  <li class="divider"></li>
+  <li><a href="#!" class="black-text waves-effect waves-grey">WhatsApp</a></li>
+  <li><a href="#!" class="black-text waves-effect waves-grey">Telegram</a></li>
+</ul>
+  </div>
 
           <div class="card radius-page-content">
             <div class="card-content black-text">
@@ -21,3 +32,15 @@ layout: default
               {{ content }}
             </div>
           </div>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Post Info</h4>
+    <ul class="collection">
+      <li class="collection-item">Shaykh: Shaykh Ibn Baz</li>
+      <li class="collection-item">Source: Fatwas of Shaykh Ibn Baz p. 2</li>
+      <li class="collection-item">Posted on this site: March 20, 2021</li>
+    </ul>
+    </div>
+  </div>
