@@ -1,8 +1,8 @@
   
 title:          Salafiyyah
 description:    "Knowledge of Shari'ah"
-baseurl:        "/"
-url:            "https://alsalafiyyah.github.io"
+baseurl:        "/new"
+url:            "https://alsalafiyyah.github.io/new/"
 
 github: [metadata]
 encoding: UTF-8
