@@ -31,8 +31,14 @@ layout: default
   <div id="modal1" class="modal bottom-sheet">
     <div class="modal-content">
       <h4>Post Info</h4>
-    <ul class="collection">
-      <li class="collection-item">Shaykh: Shaykh Ibn Baz</li>
+     <li class="collection-item">
+        {% if page.muftis.shaykh %}
+        {% for shaykh in page.muftis.shaykh %}
+          <a href="{{ shaykh.url | relative_url }}" title="{{ shaykh.name }}"><b>{{ shaykh.name }}</b></a>
+        {% endfor %}
+        {% else %}
+        {% endif %}
+     </li>
       <li class="collection-item">Source: Fatwas of Shaykh Ibn Baz p. 2</li>
       <li class="collection-item">Posted on this site: {% include hijri.html %}</li>
     </ul>
