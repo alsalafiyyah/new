@@ -59,3 +59,8 @@ body {
       .border-0 {
        border: 0;
       }
+.side-nav {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #442C2E;
+}
