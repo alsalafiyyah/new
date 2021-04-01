@@ -1,3 +1,18 @@
 ---
 layout: default
 ---
+
+    <div class="card radius black-text">
+     <div class="card-content">
+      <ul class="collection with-header border-0">
+        <li class="collection-header">
+        <span class="card-title">Latest Fatwas<a href="#" class="secondary-content">View all</a></span>
+        </li>
+  {% for post in site.posts limit:5 %}
+    {% if post.url %}
+        <a href="{{ post.url }}" class="collection-item waves-effect waves-grey block ">{{ post.title }}</>
+    {% endif %}
+  {% endfor %}
+      </ul>
+     </div>
+    </div>
