@@ -24,7 +24,7 @@ collections:
     permalink: /refutals/:path/
   wahhabism:
     output: true
-    permalink: /new/wahhabism/:path/
+    permalink: /new/wahabiyyah/:path/
   muqolat:
     output: true
     permalink: /muqolat/:title/
