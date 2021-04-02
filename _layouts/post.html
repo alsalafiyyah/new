@@ -14,13 +14,15 @@ layout: default
   </nav>
  </div>
 
-          <div class="card radius-page-content">
+ <div class="page-content white radius-page-content">
+          <div class="card z-depth-0">
             <div class="card-content black-text">
               <span class="card-title"><h3>{{ page.title }}</h3></span>
                 Written on {{ page.date | date: "%B %e, %Y" }}
               {{ content }}
             </div>
           </div>
+ </div>
 
 {% include modal-info.html %}
 {% include modal-share.html %}
