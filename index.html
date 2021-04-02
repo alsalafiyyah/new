@@ -23,10 +23,10 @@ layout: homepage
      <div class="card-content">
       <ul class="collection with-header border-0">
         <li class="collection-header">
-        <span class="card-title">Wahabiyyah<a href="/new/wahhabism/" class="secondary-content">View all</a></span>
+        <span class="card-title">Featured<a href="/new/wahhabism/" class="secondary-content">View all</a></span>
         </li>
   {% for c in site.wahhabism | limit:5 %}
-        <a href="{{ c.url }}" class="collection-item waves-effect waves-grey block ">{{ c.title }}</>
+        <a href="{{ c.url }}" class="collection-item waves-effect waves-grey block">{{ c.title }}</a>
   {% endfor %}
       </ul>
      </div>
