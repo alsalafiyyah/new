@@ -19,15 +19,9 @@ tipue_search:
     files: [index.html, search.html, sitemap.xml, feed.xml, docs, BingSiteAuth.xml, Gemfile.lock, Gemfile, manifest.yml, refutal.html, wahhabi.html, muqolat]
     
 collections:
-  refutals:
-    output: true
-    permalink: /refutals/:path/
   wahhabism:
     output: true
     permalink: /new/wahabiyyah/:path/
-  muqolat:
-    output: true
-    permalink: /muqolat/:title/
   audios:
     output: true
     active: audios
