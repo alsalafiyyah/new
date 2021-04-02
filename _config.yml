@@ -24,11 +24,11 @@ collections:
     permalink: /refutals/:path/
   wahhabism:
     output: true
-    permalink: /wahhabism/:path/
+    permalink: /new/wahhabism/:path/
   muqolat:
     output: true
     permalink: /muqolat/:title/
   audios:
     output: true
     active: audios
-    permalink: /audios/:title/
+    permalink: /new/audios/:title/
