@@ -1,0 +1,18 @@
+---
+layout: default
+title: Audios
+permalink: /audios/
+---
+
+<article>
+  <p><b>Terms and Conditions for Audios</b>. <br/>
+    We put rough translations, 
+    except that which was published in <a title="Instagram@Alsalafiyyah" href="https://instagram.com/Alsalafiyyah" target="_blank"><b>Instagram</b> <i class="fas fa-external-link-alt"></i></a>. 
+  </p>
+  <hr/>
+<ol>
+  {% for c in site.audios %}
+  <li><a title="{{ c.title }}" href="{{ c.url }}">{{ c.title }}</a></li>
+  {% endfor %}
+</ol>
+</article>
