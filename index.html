@@ -18,7 +18,20 @@ layout: homepage
       </ul>
      </div>
     </div>
-      
+
+    <div class="card radius black-text">
+     <div class="card-content">
+      <ul class="collection with-header border-0">
+        <li class="collection-header">
+        <span class="card-title">Latest Audios<a href="/new/audios/" class="secondary-content">View all</a></span>
+        </li>
+  {% for c in site.audios | limit:5 %}
+        <a href="{{ c.url }}" class="collection-item waves-effect waves-grey block">{{ c.title }}</a>
+  {% endfor %}
+      </ul>
+     </div>
+    </div>
+  
     <div class="card radius black-text">
      <div class="card-content">
       <ul class="collection with-header border-0">
